@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8b86e516-dbe2-49ac-835d-96d6f0e8f53d" solutionId="8b86e516-dbe2-49ac-835d-96d6f0e8f53d" resetWebServer="false" name="TID.PDI.TwitterAvailabilityPanel" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="TwitterAvailability.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\TwitterAvailability\TwitterAvailability.csproj" />
+    <customAssembly location="Common.Logging.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Common.Logging.dll" />
+    <customAssembly location="Microsoft.Practices.EnterpriseLibrary.Common.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <customAssembly location="Microsoft.Practices.ServiceLocation.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.ServiceLocation.dll" />
+    <customAssembly location="Microsoft.Practices.EnterpriseLibrary.Data.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.Unity.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="f2277d28-b19e-4dc0-b982-da7f5f8f4008" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="edf6c54a-d25c-459b-9690-a5039346f452" />
+  </projectItems>
+</package>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="StyleLibrary\" Type="ElementManifest" />
+    <ProjectItemFile Source="Scripts\jquery-ui-timepicker-addon.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-ui-1.9.2.custom.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\del_icon.gif" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\icgen.gif" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_flat_0_aaaaaa_40x100.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_flat_75_ffffff_40x100.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_glass_55_fbf9ee_1x400.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_glass_65_ffffff_1x400.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_glass_75_dadada_1x400.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_glass_75_e6e6e6_1x400.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_glass_95_fef1ec_1x400.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-bg_highlight-soft_75_cccccc_1x100.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-icons_222222_256x240.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-icons_2e83ff_256x240.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-icons_454545_256x240.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-icons_888888_256x240.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\ui-icons_cd0a0a_256x240.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Detail.css" Target="StyleLibrary\Styles\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\jquery-ui.css" Target="StyleLibrary\Styles\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\Detail.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-1.8.3.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\jquery-ui-timepicker-addon.css" Target="StyleLibrary\Styles\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

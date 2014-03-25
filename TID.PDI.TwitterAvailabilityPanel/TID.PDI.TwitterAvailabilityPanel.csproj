@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5769355A-3976-440F-B797-C5F0845EEA5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TID.PDI.TwitterAvailabilityPanel</RootNamespace>
+    <AssemblyName>TID.PDI.TwitterAvailabilityPanel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="Twitterizer2, Version=2.4.1.29930, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Twitterizer2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvailabilityPanel\AvailabilityPanel.cs" />
+    <Compile Include="AvailabilityPanel\AvailabilityPanelUserControl.ascx.cs">
+      <DependentUpon>AvailabilityPanelUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AvailabilityPanel\AvailabilityPanelUserControl.ascx.designer.cs">
+      <DependentUpon>AvailabilityPanelUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterFeed.ascx.cs">
+      <DependentUpon>TwitterFeed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterFeed.ascx.designer.cs">
+      <DependentUpon>TwitterFeed.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterIssueUserControl.ascx.cs">
+      <DependentUpon>TwitterIssueUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterIssueUserControl.ascx.designer.cs">
+      <DependentUpon>TwitterIssueUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AvailabilityPanel\AvailabilityPanel.webpart" />
+    <None Include="AvailabilityPanel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7aae9927-ddd8-499b-bab0-48b057f104dd}</SharePointProjectItemId>
+    </None>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{edf6c54a-d25c-459b-9690-a5039346f452}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Style Library\StyleLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af200a95-fb9a-4a27-b9c4-6d6c20c2c403}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{8b86e516-dbe2-49ac-835d-96d6f0e8f53d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{f2277d28-b19e-4dc0-b982-da7f5f8f4008}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AvailabilityPanel\AvailabilityPanelUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="AvailabilityPanel\Elements.xml" />
+    <Content Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterFeed.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\TID.PDI.TwitterAvailabilityPanel\TwitterIssueUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Style Library\StyleLibrary\Scripts\AvailibilityPanel.js" />
+    <Content Include="Style Library\StyleLibrary\Scripts\jquery-ui-1.9.2.custom.js" />
+    <Content Include="Style Library\StyleLibrary\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Style Library\StyleLibrary\Styles\AvailibilityPanel.css" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\BTP.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\BTPC.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\BTPD.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\BTPH.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\logo-twitter.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\TEFCL.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\TEFOP.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\VBTPC.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\VBTPD.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\VBTPE.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\Images\VBTPX.png" />
+    <Content Include="Style Library\StyleLibrary\Styles\jquery-ui-1.9.2.custom.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TwitterAvailability\TwitterAvailability.csproj">
+      <Project>{01DBA7BC-ACEB-4CF2-8D7C-FA8D57BB914B}</Project>
+      <Name>TwitterAvailability</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

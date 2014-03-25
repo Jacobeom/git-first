@@ -1,0 +1,93 @@
+﻿#udodet_viewer{
+	font-family: 'TelefonicaTextRegular',Verdana !important;
+}
+
+table.udo_details{
+	width: 94%;
+	margin:3%;
+}
+
+table.udo_details th {
+	background-color: #64C3D6;
+    color: white !important;
+    font-size: 12px;
+    text-align:left;
+    padding: 6px 4px;
+    width: 100%;
+}
+table.udo_details tr{
+	font-size: 12px;
+}	
+
+table.udo_details tr.row_even{
+	background-color: transparent;
+}	
+table.udo_details tr.row_odd{		
+	background-color: #E8F6F9;
+}
+
+table.udo_details input.del_detail_bt{
+	border:none;
+	background: transparent url('Images/del_icon.gif') no-repeat scroll center center;
+	display: block;
+	height: 17px;
+}
+
+table.udo_details input.dwld_detailfile{
+	border:none;
+    display: block;
+	background: transparent url('Images/icgen.gif') no-repeat scroll center center;
+	height: 17px;
+}	
+
+div.newdetail_form{
+	margin:3%;
+	padding: 2%;
+	border: 1px solid #64C3D6; 
+	width: 90%;
+}
+
+h4.title_newdetail{
+	color: #004250;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 0 8px;
+}
+
+div.newdetail_form .description_box{
+	width: 99%;
+	margin: 10px 0;
+	display:block;
+}
+
+div.newdetail_form .buttons_cnt{
+	height: 29px;
+    padding-top: 13px;
+    width: 100%;
+}
+
+div.newdetail_form input.bt_newdetail{
+	float:right;
+	display: block;
+	background-color: #64C3D6;
+	color: white;
+	font-size: 14px;
+	padding: 3px 12px;	
+}	
+	
+#udodet_viewer input.bt_close{
+	display: block;
+	background-color: #64C3D6;
+	color: white;
+	font-size: 14px;
+	padding: 3px 12px;
+}
+
+div.newdetail_form input.bt_close{
+	float:left;			
+}
+
+#udodet_viewer > input.bt_close{
+	margin: 0 0 0 auto;			
+}
+

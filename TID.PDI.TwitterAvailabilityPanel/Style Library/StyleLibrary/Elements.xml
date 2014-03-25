@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+<Module Name="StyleLibrary" Url="Style Library/TID.PDI.TwitterAvailabilityPanel">
+  <File Path="StyleLibrary\Scripts\jquery-ui-1.9.2.custom.js" Url="Scripts/jquery-ui-1.9.2.custom.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Scripts\AvailibilityPanel.js" Url="Scripts/AvailibilityPanel.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\AvailibilityPanel.css" Url="Styles/AvailibilityPanel.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\jquery-ui-1.9.2.custom.css" Url="Styles/jquery-ui-1.9.2.custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\BTP.png" Url="Styles/Images/BTP.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\BTPC.png" Url="Styles/Images/BTPC.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\BTPD.png" Url="Styles/Images/BTPD.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\BTPH.png" Url="Styles/Images/BTPH.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\TEFCL.png" Url="Styles/Images/TEFCL.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\TEFOP.png" Url="Styles/Images/TEFOP.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\VBTPC.png" Url="Styles/Images/VBTPC.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\VBTPD.png" Url="Styles/Images/VBTPD.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\VBTPE.png" Url="Styles/Images/VBTPE.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\VBTPX.png" Url="Styles/Images/VBTPX.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\logo-twitter.png" Url="Styles/Images/logo-twitter.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+</Module>
+</Elements>

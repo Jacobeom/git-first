@@ -1,0 +1,188 @@
+body {
+    color: #203830;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 6pt;
+}
+
+
+td, .ms-bodyareacell div, .ms-bodyareacell font {
+font-family: 'TelefonicaTextRegular', Verdana !important;
+}
+
+.TwitterIssueImage {
+	cursor: pointer;	
+	width: 10px; /*or your image's width*/
+    height: 10px; /*or your image's height*/
+}
+
+.columnDivider {
+    border-right: 1px solid #DEDEDE;
+}
+
+.rowDivider {
+   height:1px;
+   background:#004250;
+   border-bottom:1px solid #004250;
+   width: 80px;
+}
+
+Div.ms-titleareaframe {
+height: 100%;
+}
+.ms-pagetitleareaframe table {
+background: none;
+}
+
+td div.title {
+	font-family: 'TelefonicaHeadlineLightRegula',Verdana !important;
+    font-size: 18px;
+    font-weight: bold;
+	color: #004250;
+    padding-top: 15px;	
+    height: 45px;
+    width: 70%;
+}
+
+td div#LegendArea {
+	float: right;
+	width: 180px;		
+	padding-top: 15px;	
+	margin-right: 20px;
+}
+
+td div#LegendArea div {
+	padding-bottom: 3px;	
+}
+
+td div#LegendArea img {
+	position: absolute;
+}
+
+td div#LegendArea a {
+	padding-left: 22px;
+}
+
+
+.red {
+	cursor: pointer;	
+}
+
+.dottedLine {
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px dotted #004250;
+}
+
+#DatesWrapper {
+	position: relative;	
+	overflow-x: hidden;
+	overflow-y: visible;
+	height: 360px;
+}
+
+#DatesWrapper #DatesCarrusel {
+	position: absolute;	
+	right: 0px;
+}	
+
+#DatesWrapper #DatesCarrusel #DatesTable th, #ProductNamesTable th {
+	background-color: #64C3D6;
+	height: 40px;
+	color: white !important;
+	font-size: 12px;
+}
+
+#DatesWrapper #DatesCarrusel #DatesTable .status {
+	text-align: center;
+	height: 32px;	
+}
+
+#DatesWrapper #DatesCarrusel #DatesTable .status img {
+}
+
+#ProductNamesTable thead th {
+	padding-left: 20px;
+	text-align: left !important;
+}
+
+#ProductNamesTable tbody td {
+	color: #004250;
+	font-weight: bold;
+	padding-left: 20px;
+	height: 32px;
+	white-space: nowrap;
+}
+
+
+.DatesNavigationWrapper .WeekPrev, .DatesNavigationWrapper .WeekNext {
+	width: 15%;	
+	float: left;
+	border: 1px solid #64C3D6;
+	margin: 3px;
+	padding: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+		
+	
+.itemTable  { border: 2px single black }
+.itemTable td { border: thin single black }
+		
+
+
+
+#TwitterTable .twitterContent .twtr-doc {
+    background-color: transparent !important;
+}
+#TwitterTable .twtr-hd, .twtr-ft, .twtr-user, .twtr-avatar {
+    display: none !important;
+}
+#TwitterTable td {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+#TwitterTable {
+    border-collapse: collapse;
+}
+#TwitterTable .twitterLogoWrapper {
+    height: 24px;
+    width: 26px;
+}
+#TwitterTable .twitterLogo {
+    height: 24px;
+    width: 26px;
+}
+#TwitterTable .twitterLogo img {
+}
+#TwitterTable .twitterTitle {
+    background: url("../PublishingImages/AvailabilityPanel/degradadoclaro-twitter.png") repeat-x scroll left bottom #C9E5F5;
+    color: #0F6BB4;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    padding-left: 5px;
+    width: 100%;
+}
+#TwitterTable .twitterContent {
+}
+#TwitterTable .twitterBar {
+    background-color: #429DD6;
+    height: 3px;
+}
+#TwitterTable .twitterFooter {
+    display: none;
+}
+#TwitterTable .twitterFooter .twitterMasWrapper {
+    float: right;
+}
+#TwitterTable .twitterFooter .twitterMasWrapper img {
+    width: 15px;
+}
+#TwitterTable .TweetDate {
+    padding: 0 3px;
+}
+#TwitterTable .Tweet {
+    border-bottom: 1px dotted #004250;
+    padding: 3px;
+}

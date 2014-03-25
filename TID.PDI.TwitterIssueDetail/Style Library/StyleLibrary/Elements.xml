@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="StyleLibrary" Url="Style Library/TID.PDI.TwitterIssueDetail">
+  <File Path="StyleLibrary\Scripts\jquery-1.8.3.js" Url="Scripts/jquery-1.8.3.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Scripts\jquery-ui-timepicker-addon.js" Url="Scripts/jquery-ui-timepicker-addon.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Scripts\jquery-ui-1.9.2.custom.js" Url="Scripts/jquery-ui-1.9.2.custom.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Scripts\Detail.js" Url="Scripts/Detail.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Detail.css" Url="Styles/Detail.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\jquery-ui.css" Url="Styles/jquery-ui.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\del_icon.gif" Url="Styles/Images/del_icon.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\icgen.gif" Url="Styles/Images/icgen.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Styles/Images/ui-bg_flat_0_aaaaaa_40x100.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_flat_75_ffffff_40x100.png" Url="Styles/Images/ui-bg_flat_75_ffffff_40x100.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_glass_55_fbf9ee_1x400.png" Url="Styles/Images/ui-bg_glass_55_fbf9ee_1x400.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_glass_65_ffffff_1x400.png" Url="Styles/Images/ui-bg_glass_65_ffffff_1x400.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_glass_75_dadada_1x400.png" Url="Styles/Images/ui-bg_glass_75_dadada_1x400.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_glass_75_e6e6e6_1x400.png" Url="Styles/Images/ui-bg_glass_75_e6e6e6_1x400.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_glass_95_fef1ec_1x400.png" Url="Styles/Images/ui-bg_glass_95_fef1ec_1x400.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-bg_highlight-soft_75_cccccc_1x100.png" Url="Styles/Images/ui-bg_highlight-soft_75_cccccc_1x100.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-icons_222222_256x240.png" Url="Styles/Images/ui-icons_222222_256x240.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-icons_2e83ff_256x240.png" Url="Styles/Images/ui-icons_2e83ff_256x240.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-icons_454545_256x240.png" Url="Styles/Images/ui-icons_454545_256x240.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-icons_888888_256x240.png" Url="Styles/Images/ui-icons_888888_256x240.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\Images\ui-icons_cd0a0a_256x240.png" Url="Styles/Images/ui-icons_cd0a0a_256x240.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+  <File Path="StyleLibrary\Styles\jquery-ui-timepicker-addon.css" Url="Styles/jquery-ui-timepicker-addon.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+</Module>
+</Elements>

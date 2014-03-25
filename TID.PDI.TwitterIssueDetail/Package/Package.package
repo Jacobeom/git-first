@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b7415518-98e7-4d11-b19e-8f95336f2f1e" solutionId="b7415518-98e7-4d11-b19e-8f95336f2f1e" resetWebServer="false" name="TID.PDI.TwitterIssueDetail" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="TwitterAvailability.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\TwitterAvailability\TwitterAvailability.csproj" />
+    <customAssembly location="Common.Logging.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Common.Logging.dll" />
+    <customAssembly location="Microsoft.Practices.EnterpriseLibrary.Common.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.Unity.dll" />
+    <customAssembly location="Microsoft.Practices.EnterpriseLibrary.Data.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <customAssembly location="Microsoft.Practices.ServiceLocation.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.ServiceLocation.dll" />
+    <customAssembly location="Microsoft.Practices.Unity.Interception.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Lib\Microsoft.Practices.Unity.Interception.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="43f4ccd8-a968-4475-944f-1e728afdec44" />
+  </features>
+</package>

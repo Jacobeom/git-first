@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="StyleLibrary\" Type="ElementManifest" />
+    <ProjectItemFile Source="Scripts\jquery-ui-1.9.2.custom.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\AvailibilityPanel.css" Target="StyleLibrary\Styles\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\jquery-ui-1.9.2.custom.css" Target="StyleLibrary\Styles\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\BTP.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\BTPC.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\BTPD.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\BTPH.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\TEFCL.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\TEFOP.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\VBTPC.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\VBTPD.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\VBTPE.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\VBTPX.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\AvailibilityPanel.js" Target="StyleLibrary\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Images\logo-twitter.png" Target="StyleLibrary\Styles\Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
