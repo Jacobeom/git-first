@@ -83,6 +83,7 @@
     <Compile Include="Service\TwitterService.cs" />
     <Compile Include="TwitterLifecycle\LifeCycles.cs" />
     <Compile Include="TwitterLifecycle\TEFCLLifeCycle.cs" />
+    <Compile Include="TwitterLifecycle\TLifeCycle.cs" />
     <Compile Include="TwitterLifecycle\TwitterLifecycle.cs" />
     <Compile Include="TwitterLifecycle\VBTPELifeCycle.cs" />
     <Compile Include="TwitterParser\BTPParser.cs" />
