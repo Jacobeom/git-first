@@ -59,7 +59,7 @@ namespace TwitterAvailability.TwitterParser
 
         public override string RegExpression
         {
-            get { return @"(?<TwitterKeyToken>\#BTPC)\s+(?<ServiceToken>\w{1,3})\.(?<CountryToken>\w{1,2}|\*)\s+\((?<IDToken>.+)\)\s+(?<CommentToken>.+)"; }
+            get { return @"(?<TwitterKeyToken>\#BTPCC)\s+(?<ServiceToken>\w{1,3})\.(?<CountryToken>\w{1,2}|\*)\s+\((?<IDToken>.+)\)\s+(?<CommentToken>.+)"; }
         }
     }
 }
